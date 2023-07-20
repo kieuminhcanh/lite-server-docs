@@ -10,9 +10,9 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^5.3.5",
     "element-plus": "^2.2.18",
-    "nuxt": "3.0.0-rc.11",
+    "nuxt": "^3.0.0-rc.13",
     "unplugin-auto-import": "^0.11.2",
     "unplugin-vue-components": "^0.22.8",
-    "vuetify": "^3.0.0-beta.13"
+    "vuetify": "^3.0.0"
   }
 }

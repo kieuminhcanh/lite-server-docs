@@ -9,7 +9,9 @@
         work on Windows. I wonder why I don't make this, extends this great app,
         more convinient and cross platform.</v-card-item
       >
-
+      <v-card-item>
+        <v-img src="/main.gif" />
+      </v-card-item>
       <v-card-text class="my-10">
         <h2 class="text-h4 my-5 font-weight-bold">Features</h2>
         <v-row align="stretch">
@@ -56,7 +58,7 @@
               title="Microsoft Windows"
               subtitle="Windows 7 or later"
               prepend-avatar="/images/windows.png"
-              href="/files/lite-server-0.0.1.exe"
+              href="/files/lite-server_0.0.1_x64_en-US.msi"
               target="_blank"
               class="py-5 rounded-lg"
               variant="elevated"
@@ -85,20 +87,6 @@
               disabled
               class="py-5 rounded-lg"
               variant="tonal"
-            ></v-list-item>
-          </v-col>
-        </v-row>
-      </v-card-text>
-      <v-card-text>
-        <h2 class="text-h4 my-5 font-weight-bold">Requirements</h2>
-        <v-row align="stretch">
-          <v-col cols="12" md="6">
-            <v-list-item
-              lines="three"
-              title="vc_redist.x64"
-              subtitle="PHP, MySQL and some apps require the Visual C runtime. You have to install this package to run Lite Server. "
-              prepend-avatar="/images/visual-studio.png"
-              href="https://aka.ms/vs/17/release/vc_redist.x64.exe"
             ></v-list-item>
           </v-col>
         </v-row>
